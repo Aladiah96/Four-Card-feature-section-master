@@ -1,0 +1,85 @@
+$font: 'poppins', sans-serif
+$red: hsl(0, 78%, 62%)
+$cyan: hsl(180, 62%, 55%)
+$orange: hsl(34, 97%, 64%)
+$blue: hsl(212, 86%, 64%)
+$veryDarkBlue: hsl(234, 12%, 34%)
+$grayishBlue: hsl(229, 6%, 66%)
+$veryLightGray: hsl(0, 0%, 98%)
+
+// elements
+
+*
+    box-sizing: border-box
+
+html
+    font-family: $font
+    font-size: 15px
+
+body
+    margin: 0
+    padding: 2em
+
+h2
+    font-weight: 200
+    padding: 2rem 0 0 0
+    margin: 0
+    font-size: 1.7rem
+    text-align: center
+    color: $veryDarkBlue
+
+p
+    font-weight: 200
+    font-size: 1.1rem
+    margin-bottom: 7rem
+    line-height: 1.8rem
+    color: $grayishBlue
+    font-weight: 400
+
+// classes
+
+.bold
+    font-weight: 600
+    padding: 0
+
+.text
+    text-align: center
+
+.card
+    border-radius: 5px
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .2)
+    padding: 1rem 1.5rem
+    margin: 2rem 0
+    border-top: 4px solid red
+
+    & img
+        width: 3.5em
+        display: block
+        margin-left: auto
+        margin-top: 2.5rem
+
+    & h3
+        margin-bottom: 0
+        font-size: 1.35rem
+        color: $veryDarkBlue
+
+    & p
+        margin: .2rem 0 0 0
+        letter-spacing: .2px
+        font-size: .9rem
+
+    &__s
+        border-color: $cyan
+
+    &__t
+        border-color: $red
+
+    &__k
+        border-color: $orange
+
+    &__c
+        border-color: $blue
+        
+
+
+
